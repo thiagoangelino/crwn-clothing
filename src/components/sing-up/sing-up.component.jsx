@@ -25,7 +25,6 @@ class SingUp extends React.Component {
         const {displayName, email, password, confirmPassword} = this.state;
 
         if(password !== confirmPassword){
-            //console.log("Password don't match!");
             alert("Password don't match!");
             return;
         }
